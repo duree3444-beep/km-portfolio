@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" fill="none">
+  <!-- 시스템 노드와 데이터 흐름을 표현한 장식용 일러스트 -->
+  <g stroke="#93C5FD" stroke-width="1.5">
+    <path d="M80 90 L200 60 L330 110 L420 70"/>
+    <path d="M80 90 L140 200 L260 190 L330 110"/>
+    <path d="M140 200 L90 310 L220 350 L260 190"/>
+    <path d="M260 190 L380 240 L420 70"/>
+    <path d="M380 240 L340 360 L220 350"/>
+    <path d="M200 60 L260 190" stroke-dasharray="5 5"/>
+    <path d="M330 110 L380 240" stroke-dasharray="5 5"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#60A5FA" stroke-width="2">
+    <circle cx="80" cy="90" r="9"/>
+    <circle cx="200" cy="60" r="7"/>
+    <circle cx="420" cy="70" r="8"/>
+    <circle cx="140" cy="200" r="8"/>
+    <circle cx="90" cy="310" r="7"/>
+    <circle cx="220" cy="350" r="9"/>
+    <circle cx="340" cy="360" r="7"/>
+    <circle cx="380" cy="240" r="9"/>
+  </g>
+  <!-- 중심 노드 -->
+  <circle cx="330" cy="110" r="22" fill="#DBEAFE"/>
+  <circle cx="330" cy="110" r="12" fill="#2563EB"/>
+  <circle cx="260" cy="190" r="30" fill="#DBEAFE"/>
+  <circle cx="260" cy="190" r="16" fill="#1D4ED8"/>
+  <rect x="246" y="183" width="28" height="4" rx="2" fill="#FFFFFF"/>
+  <rect x="246" y="193" width="18" height="4" rx="2" fill="#BFDBFE"/>
+</svg>
